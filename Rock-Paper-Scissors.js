@@ -93,8 +93,8 @@ else if(result === 'Tie') {
 
     document.querySelector('.see-result').innerHTML = `${result}.`;
     document.querySelector('.see-move').innerHTML = ` You
-        <img class="move-icon" src="${playerMove}-emoji.png">
-        <img class="move-icon" src="${computerMove}-emoji.png">
+        <img class="move-icon" src="${playerMove.toLowerCase()}-emoji.png">
+        <img class="move-icon" src="${computerMove.toLowerCase()}-emoji.png">
         Computer`;
     updateScore();
     }
